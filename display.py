@@ -12,8 +12,7 @@ equation = StringVar()
 
 def press(num):
     global expression
-    global equation
- 
+
     # concatenation of string
     expression = expression + str(num)
  
@@ -22,7 +21,6 @@ def press(num):
 
 def enter():
     global expression
-    global equation
 
     try:
         total = str(eval(expression))
@@ -36,8 +34,6 @@ def enter():
 
 def clear():
     global expression
-    global equation
-
     
     expression = ''
     equation.set('')
