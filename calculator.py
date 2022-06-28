@@ -9,7 +9,6 @@ window.geometry('200x250')
 expression = ''
 equation = StringVar()
 
-
 def press(num):
     global expression
 
